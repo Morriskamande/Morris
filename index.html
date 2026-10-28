@@ -719,6 +719,13 @@
                     <div>
                         <label class="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-2">Your Email</label>
                         <input type="email" name="email" required class="w-full bg-brandDark/80 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandAccent text-sm" placeholder="john@example.com">
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                              <input type="hidden" name="access_key" value="a5f5e83f-189b-4d22-aa7a-38f88f5a2857">
+                                <input type="text" name="name" required>
+                                  <input type="email" name="email" required>
+                              <textarea name="message" required></textarea>
+                              <button type="submit">Submit</button>
+                        </form>
                     </div>
                     <div>
                         <label class="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-2">Message</label>
